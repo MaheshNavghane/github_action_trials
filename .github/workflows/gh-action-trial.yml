@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Set up Python
-      uses: actions/set-python@v4
+      uses: actions/github_action_trials@v4
       with:
         python-version: ${{ matrix.python-version }}
 
